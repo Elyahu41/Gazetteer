@@ -7,8 +7,14 @@
 Simple Android App using geonames API http://www.geonames.org
 
 The geographical dictionary of  countries. The database includes 250 countries* and flags.
+#### App concept:
+* IntentService and Retrofit data up to date
+* ContentResolver stores structured data
+* CursorLoader make data available
+* Fresco for displaying images in application
 
-#### Countries
+
+#### Countries list
 ![alt text](screenshot/activity.png "Activity ")
 
 All data are loaded from the server are stored in a SQLite database and are available without internet.
